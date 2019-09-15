@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shivarajpadala.codify">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".C_Dlist2"></activity>
+        <activity android:name=".C_Deflist" />
+        <activity android:name=".C_relational" />
+        <activity android:name=".C_Assignment" />
+        <activity android:name=".C_hello_program" />
+        <activity android:name=".C_Definitions" />
+        <activity android:name=".Cpp_questions" />
+        <activity android:name=".C_questions" />
+        <activity android:name=".Py_Questions" />
+        <activity android:name=".Java_questions" />
+        <activity android:name=".Leefcode" />
+        <activity android:name=".Hacker_earth" />
+        <activity android:name=".Topcoder" />
+        <activity android:name=".Codechef" />
+        <activity android:name=".Hacker_rank" />
+        <activity android:name=".Online_test" />
+        <activity android:name=".Html_list" />
+        <activity android:name=".Js_list" />
+        <activity android:name=".Cpp_list" />
+        <activity android:name=".Css_list" />
+        <activity android:name=".Kotlin_list" />
+        <activity android:name=".Python_list" />
+        <activity android:name=".C_programminglist" />
+        <activity android:name=".Java_programlist" />
+        <activity android:name=".HtmlCompiler" />
+        <activity android:name=".Compiler" />
+        <activity android:name=".Php_menu" />
+        <activity android:name=".About" />
+        <activity android:name=".Kot_menu" />
+        <activity android:name=".Sw_menu" />
+        <activity android:name=".Py_menu" />
+        <activity android:name=".Html_menu" />
+        <activity android:name=".Css_menu" />
+        <activity android:name=".Js_menu" />
+        <activity android:name=".Java_menu" />
+        <activity android:name=".Cpp_menu" />
+        <activity android:name=".C_menu" />
+        <activity android:name=".Home" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

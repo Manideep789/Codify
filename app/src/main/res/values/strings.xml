@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Codify</string>
+    <string name="about">Shivaraj Padala\n\n Nishanth Bokka\n\n Manideep Tonangi\n\n Lohith Viswa</string>
+    <string name="clg">Vignan Institute of Information Technology\n\n Department of Computer Science Engineering \n\n About us\n \n Designed and Developed by\n</string>
+    <string name="c_quest"><![CDATA[1.What is the difference between declaration and definition of a variable and function\n
+Ans: Declaration of a variable and function simply declares that the variable and function exists somewhere in the program but the memory is not allocated for them. But the declaration of a variable and function serves an important role. And that is the type of the variable and function. Therefore, when a variable is declared, the program knows the data type of that variable. In case of function declaration, the program knows what are the arguments to that functions, their data types, the order of arguments and the return type of the function. So that’s all about declaration. Coming to the definition, when we define a variable/function, apart from the role of declaration, it also allocates memory for that variable and function. Therefore, we can think of definition as a super set of declaration. (or declaration as a subset of definition). From this explanation, it should be obvious that a variable and function can be declared any number of times but it can be defined only once. Remember the basic principle th\nat you can’t have two locations of the same variable and function\n\n
+2.What are different storage class specifiers in C?\n
+Ans: auto, register, static, extern\n\n
+
+3.What is scope of a variable? How are variables scoped in C?\n
+Ans: Scope of a variable is the part of the program where the variable may directly be accessible. In C, all identifiers are lexically (or statically) scoped. See this for more details.\n\n
+
+4.How will you print “Hello World” without semicolon?\n
+Ans: #include <stdio.h>\n
+int main(void)\n
+{\n
+	if (printf("Hello World")) {\n
+	}\n
+}\n\n
+5.When should we use pointers in a C program?\n
+(i) To get address of a variable\n
+(ii) For achieving pass by reference in C: Pointers allow different functions to share and modify their local variables.\n
+(iii) To pass large structures so that complete copy of the structure can be avoided.\n
+(iv). To implement “linked” data structures like linked lists and binary trees.\n\n
+
+6.What is NULL pointer?\n
+Ans: NULL is used to indicate that the pointer doesn’t point to a valid location. Ideally, we should initialize pointers as NULL if we don’t know their value at the time of declaration. Also, we should make a pointer NULL when memory pointed by it is deallocated in the middle of a program.\n\n
+]]></string>
+    <string name="java_quest"></string>
+    <string name="py_quest"></string>
+    <string name="def"><![CDATA[ main() function is a function that must be there in every C program. Everything inside this function in a C program will be executed. In the above example, intwritten before the main() function is the return type of main() function. we will discuss about it in detail later. The curly braces { } just after the main() function encloses the body of main() function.]]></string>
+    <string name="cpp_quest"></string>
+    <string name="c_hello"><![CDATA[#include<stdio.h>\n int main()\n{\nprintf("Hello World");\n}\n\nOutput\nHello World\n]]></string>
+    <string name="Assinmentoperator"><![CDATA[#include<stdio.h>\nint main()\n{\nint a=5,b=3;\na=66;\nb=100;\nprintf("a=%d,b=%d",a,b);\nreturn 0;\n}\n\nOutput\na=66, b=100\n]]></string>
+    <string name="Relationaloperator"><![CDATA[include <stdio.h>\n int main()\n {\n int a = 9,b = 4, c;\n c = a+b;\n printf("a+b = %d \n",c);\n c = a-b;\n printf("a-b = %d \n",c);\n c = a*b;\n printf("a*b = %d \n",c);\n c = a/b;\n printf("a/b = %d \n",c);\n c = a%b;\n printf("Remainder when a divided by b = %d \n",c);\n return 0;\n}\n\n Output\na+b = 13\na-b = 5\na*b = 36\na/b = 2\nRemainder when a divided by b=1\n]]></string>
+    <string name="def_string"><![CDATA[Various functions and their associated variables that needs to be imported into your C program with the help of pre-processor #include statement. All the header file have a .h an extension that contains C function declaration and macro definitions.Including a header file means that using the content of header file in your source program. A straightforward practice while programming in C or C++ programs is that you can keep every macro, global variables, constants, and other function prototypes in the header files.]]></string>
+    <string name="def_string1"><![CDATA[Main function is a inbuilt user defined function.All C language programs must have a main() function. Its the core of every program. Its required. The main() function doesn t really have to do anything other than be present inside your C source code. Eventually, it contains instructions that tell the computer to carry out whatever task your program is designed to do. But its not officially required to do anything.]]></string>
+</resources>

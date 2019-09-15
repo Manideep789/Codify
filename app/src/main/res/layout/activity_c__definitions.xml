@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECEFF1"
+    tools:context=".C_Definitions">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/linear"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Definitions"
+                android:textSize="25sp"
+                android:layout_margin="15dp"
+                android:textColor="#1a283f"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_below="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Header File"
+                    android:id="@+id/tx1"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="main() function"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/tx2"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Comments"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Return Statement"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Compile and Run a C Program"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Using an IDE-Turbo C"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Difference between Compile and Run"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="C Language Basic Syntax Rules "
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Semicolon"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Comments"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Keywords in C"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Identifiers"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Operators in C"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Arithmetic Operators"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Relational Opertaors"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Logical Operators"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bitwise Operators"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Assignment Operators"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Conditional Operators"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Data Types in C"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Integer type"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Floating point type"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Character type"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="void type"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Variables in C"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="C Input and Output"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="scanf() and printf()"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Decision making in C"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Simple if statement"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="if..else statement"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="switch statement in C"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Loops in C"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="while Loop"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="for Loop"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="do while Loop"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Arrays in C"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Strings and Arrays"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Functions in C"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="User defined Functions"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recursion"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="C structures"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="C Pointers"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DMA in C"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Command Line Arguments"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="File input-output"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#1a283f">
+
+                </TextView>
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+
+
+</RelativeLayout>

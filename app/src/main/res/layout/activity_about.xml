@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_white"
+    tools:context=".About">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tx1"
+        android:layout_height="wrap_content"
+        android:text="Vignan's Institute of Information Technology"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:shadowColor="@color/colorAccent">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx1"
+        android:id="@+id/tx2"
+        android:text="Department of Computer Science Engineering"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:shadowColor="@color/colorAccent">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx2"
+        android:layout_centerHorizontal="true"
+        android:text="@string/about"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:shadowColor="#A2A1A1">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/india"
+        android:layout_above="@+id/imgcaption"
+        android:layout_centerHorizontal="true">
+
+    </ImageView>
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:id="@+id/imgcaption"
+       android:layout_alignParentBottom="true"
+       android:layout_height="50dp"
+       android:src="@drawable/caption">
+
+   </ImageView>
+
+</RelativeLayout>
